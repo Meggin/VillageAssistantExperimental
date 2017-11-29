@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="https://villageassistanttwo.firebaseapp.com/manifest.json">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="https://villageassistanttwo.firebaseapp.com/favicon.ico">
+    <!--Import Google Icon Font-->
+    <link href="style/icons.css" rel="stylesheet">
+    <!--<link href="icons/fonts.css" rel="stylesheet">-->
+
+    <!-- Compiled and minified CSS -->
+   <link type="text/css" rel="stylesheet" href="style/materialize.min.css">
+   <link rel="stylesheet" href="style/style.css">
+   <!--Let browser know website is optimized for mobile-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Village Assistant</title>
+
+  </head>
+  <body>
+
+    <!-- This is where React will deploy the content it generates. -->
+    <div id="root"></div>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-firestore.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="logic/materialize.min.js"></script>
+
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(function() {
+                console.log('Service Worker Registered');
+          });
+      }
+    </script>
+    <noscript>
+      Uh-oh. Your browser does not allow JavaScript.
+    </noscript>
+  </body>
+</html>

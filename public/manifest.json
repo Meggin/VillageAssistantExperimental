@@ -1,0 +1,28 @@
+{
+  "short_name": "Village",
+  "name": "Village Assistant",
+  "icons": [
+    {
+      "src": "/static/media/villageLittleIcon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/static/media/villageLittleIcon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/static/media/villageLittleIcon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/static/media/villageLittleIcon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "gcm_sender_id": "103953800507",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

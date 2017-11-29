@@ -1,0 +1,43 @@
+
+.hide{
+  display: none;
+}
+
+.messagesList {
+  max-height: 200px;
+
+}
+
+.scroll {
+	overflow-y: scroll;
+}
+
+.messageCom {
+  max-width: 500px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.navLogo {
+  height: 60px;
+}
+
+.inputBar {
+  max-width: 200px;
+}
+
+.logoFont {
+  /*font-family: 'Yellowtail', cursive;
+  font-family: 'Courgette', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Merienda One', cursive;
+  font-family: 'Berkshire Swash', cursive;*/
+  font-family: 'Fondamento', cursive;
+  /*font-family: 'Redressed', cursive;*/
+  font-size: 30px;
+}
+
+#helpLogo {
+  height: 40vh;
+}

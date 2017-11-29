@@ -1,0 +1,26 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+/build
+
+client_secret.json
+
+villageassistanttwo-firebase-adminsdk-tfwed-5230d36571
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/functions/node_modules
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
